@@ -1,0 +1,40 @@
+Hangman is a simple word-guessing game. The player has to guess a hidden word by suggesting letter, one at a time. Here's how it works:
+
+How to Play
+
+Setup:
+
+A random word is chosen (e.g., galaxy).
+You are given a set number of attempts (usually 6).
+The word is hidden with underscores (_ _ _ _ _ _).
+
+Gameplay:
+
+Guess one letter at a time.
+If the letter is in the word, it is revealed.
+If the letter is not in the word, you lose one attempt.
+The game keeps track of all your guessed letters.
+
+Winning:
+
+If you guess all the letters in the word before running out of attempts, you win!
+
+Losing:
+
+If you run out of attempts, you lose, and the word is revealed.
+
+Example Game
+
+Word: matrix
+
+Attempts: 6
+
+Guess a → Correct! Display: _ a _ _ _ _
+Guess e → Wrong! Attempts left: 5
+Guess t → Correct! Display: _ a t _ _ _
+Guess m → Correct! Display: m a t _ _ _
+Guess x → Correct! Display: m a t _ _ x
+Guess r → Correct! Display: m a t r _ x
+Guess i → Correct! Display: m a t r i x
+
+You Win!
